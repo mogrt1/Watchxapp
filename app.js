@@ -1,15 +1,15 @@
 function findMyWatch() {
-    alert("Navigating to Find My Watch...");
+    window.location.href = "find_my_watch.html";
 }
 
 function watchSettings() {
-    alert("Navigating to Watch Settings...");
+    window.location.href = "watch_settings.html";
 }
 
 function gettingStarted() {
-    alert("Navigating to Getting Started...");
+    window.location.href = "getting_started.html";
 }
 
 function remoteInteract() {
-    alert("Navigating to Remote Interact...");
+    window.location.href = "remote_interact.html";
 }
