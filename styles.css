@@ -164,7 +164,6 @@ body {
 
 .blue-button {
     background-color: #1e90ff; /* Blue button */
-    color: white;
     padding: 1rem 2rem;
     border-radius: 8px;
     display: flex;
@@ -176,6 +175,11 @@ body {
 
 .blue-button:hover {
     background-color: #1c86ee; /* Slightly darker blue on hover */
+}
+
+.blue-button span {
+    font-size: 1.2rem;
+    color: #fff; /* White text */
 }
 
 .bring-me-options {
