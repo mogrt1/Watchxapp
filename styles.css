@@ -142,3 +142,65 @@ body {
     margin-top: -0.5rem;
     margin-bottom: 1rem;
 }
+
+/* Remote Interact Page Menu CSS */
+
+.card {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.card h2 {
+    margin: 0 0 1rem 0;
+    color: #fff;
+}
+
+.button-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.blue-button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+    background-color: #1c86ee;
+}
+
+.bring-me-options {
+    background-color: #2e2e2e;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.options-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.close {
+    cursor: pointer;
+    color: red;
+}
+
+.bring-me-options p {
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.bring-me-options p:hover {
+    text-decoration: underline;
+}
