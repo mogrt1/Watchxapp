@@ -171,6 +171,7 @@ body {
     gap: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+    color: #fff; /* Text color changed to white */
 }
 
 .blue-button:hover {
