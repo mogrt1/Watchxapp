@@ -177,11 +177,6 @@ body {
     background-color: #1c86ee; /* Slightly darker blue on hover */
 }
 
-.blue-button span {
-    font-size: 1.2rem;
-    color: #fff; /* White text */
-}
-
 .bring-me-options {
     background-color: #2e2e2e;
     padding: 1rem;
