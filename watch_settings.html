@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Settings - WatchX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Watch Settings</h1>
+        <div class="settings-container">
+            <div class="setting">
+                <span>Secure Mode</span>
+                <div class="toggle" onclick="toggleSetting(this)"></div>
+            </div>
+            <div class="setting">
+                <span>Background Color</span>
+                <input type="color" id="backgroundColorPicker">
+            </div>
+            <div class="setting">
+                <span>Password</span>
+                <input type="password" id="passwordInput" class="password-input">
+                <button class="save-button" onclick="savePassword()">Save</button>
+            </div>
+            <div class="setting">
+                <span>Auto-Connect</span>
+                <div class="toggle" onclick="toggleSetting(this)"></div>
+            </div>
+            <div class="setting">
+                <span>Bluetooth</span>
+                <div class="toggle" onclick="toggleSetting(this)"></div>
+            </div>
+            <div class="setting">
+                <span>Wi-Fi</span>
+                <div class="toggle" onclick="toggleWiFi(this)"></div>
+            </div>
+            <div id="wifiNetworks" class="wifi-networks" style="display: none;">
+                <p>Wi-Fi-1</p>
+                <p>Wi-Fi-2</p>
+                <p>Wi-Fi-3</p>
+            </div>
+            <div class="setting">
+                <span>Auto File Cleanup</span>
+                <div class="toggle" onclick="toggleSetting(this)"></div>
+            </div>
+            <div class="setting">
+                <button class="reset-button" onclick="resetWatchX()">Reset WatchX</button>
+            </div>
+        </div>
+    </div>
+    <script src="settings.js"></script>
+</body>
+</html>
