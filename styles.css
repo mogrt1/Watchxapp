@@ -163,17 +163,18 @@ body {
 }
 
 .blue-button {
-    background-color: #1e90ff;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
+    background-color: #1e90ff; /* Blue button */
+    padding: 1rem 2rem;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .blue-button:hover {
-    background-color: #1c86ee;
+    background-color: #1c86ee; /* Slightly darker blue on hover */
 }
 
 .bring-me-options {
