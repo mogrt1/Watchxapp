@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Interact - WatchX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Remote Interact</h1>
+        <div class="card">
+            <h2>HoloProject</h2>
+            <div class="button-row">
+                <button class="blue-button" onclick="connectWatch()">Connect Watch</button>
+                <button class="blue-button" onclick="disconnect()">Disconnect</button>
+                <button class="blue-button" onclick="reset()">Reset</button>
+                <button class="blue-button" onclick="call()">Call</button>
+                <button class="blue-button" onclick="projectPhone()">Project Phone</button>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Mini Robot</h2>
+            <div class="button-row">
+                <button class="blue-button" onclick="connectWatch()">Connect Watch</button>
+                <button class="blue-button" onclick="disconnect()">Disconnect</button>
+                <button class="blue-button" onclick="reset()">Reset</button>
+                <button class="blue-button" onclick="call()">Call</button>
+                <button class="blue-button" onclick="bringMe()">Bring Me</button>
+            </div>
+            <div id="bringMeOptions" class="bring-me-options" style="display: none;">
+                <div class="options-header">
+                    <span>Bring Me</span>
+                    <span class="close" onclick="closeOptions()">X</span>
+                </div>
+                <p onclick="selectOption('Coffee')">Coffee</p>
+                <p onclick="selectOption('Pencil')">Pencil</p>
+                <p onclick="selectOption('Water')">Water</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Door Hinge</h2>
+            <div class="button-row">
+                <button class="blue-button" onclick="connectWatch()">Connect Watch</button>
+                <button class="blue-button" onclick="disconnect()">Disconnect</button>
+                <button class="blue-button" onclick="reset()">Reset</button>
+                <button class="blue-button" onclick="call()">Call</button>
+                <button class="blue-button" onclick="toggleHinge()">Toggle Hinge</button>
+            </div>
+        </div>
+    </div>
+    <script src="remote.js"></script>
+</body>
+</html>
